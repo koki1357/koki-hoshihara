@@ -5,4 +5,4 @@
 
 ### 02_以下を参考に、ディレクトリ構造を作成する
 * https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md
-* 
+* Header,Footerの編集も実施済み
