@@ -1,5 +1,7 @@
 import React from 'react';
-import Header from '../components/Header';
+import Header from '../components/layout/header/Header';
+import Footer from '../components/layout/footer/Footer';
+
 import './App.css';
 
 const App: React.FC = () => {
@@ -20,6 +22,7 @@ const App: React.FC = () => {
           <p>ここに連絡先を記載予定</p>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
