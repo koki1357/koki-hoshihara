@@ -1,25 +1,37 @@
 .footer {
-  background-color: #282c34;
+  background-color: #304878;
   color: white;
-  padding: 20px 0;
+  padding: 20px 0;  /* 左右のパディングを0に */
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
+  text-align: center;
+  height: 60px;  /* ヘッダーと同じ高さを指定 */
+  display: flex;
+  align-items: center;  /* 縦方向の中央揃え */
+  justify-content: center;  /* 横方向の中央揃え */
 }
 
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 10px;
+}
+
+.social-links {
+  display: flex;          /* ソーシャルリンクを横並びに */
+  justify-content: center;/* 中央揃え */
+  gap: 20px;             /* リンク間の間隔 */
 }
 
 .social-links a {
   color: white;
   text-decoration: none;
-  margin-left: 20px;
 }
 
 .social-links a:hover {

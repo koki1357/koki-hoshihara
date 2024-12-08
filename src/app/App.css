@@ -1,8 +1,12 @@
 #root {
-  max-width: 1280px;
+  width: 100%;  /* max-widthを削除し、width: 100%に変更 */
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+main {
+  padding-top: 80px;    /* ヘッダーの高さ分 */
+  padding-bottom: 80px; /* フッターの高さ分 */
 }
 
 .logo {
